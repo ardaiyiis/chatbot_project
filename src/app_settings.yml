@@ -1,0 +1,8 @@
+db:
+  url: "postgresql://root:Qwert12#@localhost:5432/Solomind"
+  echo: False
+cors: 
+  allowed_origins: ["*"]
+logging: 
+  file_path: "./logs"
+  log_level: "INFO"

@@ -1,0 +1,14 @@
+dependency-injector
+dependency-injector[yaml]
+psycopg2-binary
+fastapi
+fastapi.middleware
+sqlalchemy
+sqlalchemy.orm
+a2wsgi
+pandas
+openai
+pydantic<2.0.0
+fastapi-router-controller
+jsonpickle
+py-automapper
