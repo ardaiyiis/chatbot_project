@@ -40,28 +40,7 @@ class Database:
         finally:
             session.close()
 
-    # def __init__(self, db_url:str):
-    #     DATABASE_URL = 'postgresql://root:Qwert12#@localhost:5432/Solomind'
-    #     engine = create_engine(DATABASE_URL)
-    #     self.make_session = sessionmaker(bind=engine)
-    #     self.base = declarative_base()
-    #     self.session = None
 
-    # def connect(self):
-    #     try:
-    #         self.session = self.make_session()
-    #         return self.session
-    #     except Exception as e:
-    #         # Handle the exception
-    #         raise (f"Failed to create a database session: {str(e)}")
-
-    # def close_connection(self):
-    #     try:
-    #         if self.session:
-    #             self.session.close()
-    #     except Exception as e:
-    #         # Handle the exception
-    #         raise (f"Failed to close the database session: {str(e)}")
         
     @event.listens_for(Query, "before_compile", retval=True)
     def no_deleted(query):
