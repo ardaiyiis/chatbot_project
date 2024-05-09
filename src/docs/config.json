@@ -1,6 +1,6 @@
 {
-    "openai_api_key": "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",
-    "gupshup_api_key": "kcpdwdcuieqnm6mwqdfl2pfqi3iqmqmk",
+    "openai_api_key": "sk-****",
+    "gupshup_api_key": "***",
     "model_name": "gpt-4-1106-preview",
     "temperature": 0.8,
     "promptBase": "test",
