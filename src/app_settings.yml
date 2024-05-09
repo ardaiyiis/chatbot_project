@@ -1,5 +1,5 @@
 db:
-  url: "postgresql://root:Qwert12#@localhost:5432/Solomind"
+  url: "postgresql://root:***"
   echo: False
 cors: 
   allowed_origins: ["*"]
